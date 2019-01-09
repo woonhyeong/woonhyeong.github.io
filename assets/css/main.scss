@@ -3,6 +3,11 @@
 ---
 
 @charset "utf-8";
+$link-color: #008b8b;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.greedy-nav .visible-links a:before {
+  background-color: #008b8b;
+}
